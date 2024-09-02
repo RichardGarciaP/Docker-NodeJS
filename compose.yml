@@ -10,7 +10,7 @@ services:
             POSTGRES_PASSWORD_FILE: /run/secrets/db-password
             POSTGRES_DB: example
         ports:
-            - 4000:3000
+            - 3000:3000
             - 9229:9229
         depends_on:
             db:
